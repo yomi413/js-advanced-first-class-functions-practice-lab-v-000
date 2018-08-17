@@ -33,9 +33,9 @@ const driversByName = function (drivers) {
 
 const totalRevenue = function (drivers) {
   let grandTotal = 0
-  driver.forEach(function (driver) {
+  drivers.forEach(function (driver) {
     grandTotal += driver.revenue
   })
   return grandTotal
-  
+
 }
