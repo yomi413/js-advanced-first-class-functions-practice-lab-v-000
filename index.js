@@ -31,28 +31,6 @@ const driversByName = function (drivers) {
   })
 }
 
-// function driversByName (drivers) {
-//   return drivers.sort(function (firstDriver, secondDriver) {
-//     return firstDriver.localeCompare(secondDriver)
-//   })
-// }
-// function logDriverNames (drivers) {
-//   return drivers.map(function (driver) {
-//     console.log(driver.name);
-//   })
-// }
-//
-// function logDriversByHometown (drivers, location) {
-//   return drivers.filter(function (driver) {
-//     if (driver.hometown === location) {
-//       console.log(driver.name)
-//     }
-//   })
-// }
-//
-// function driversByRevenue (drivers) {
-//   const revenueSorter = function (revenue1, revenue2) {
-//       return revenue2 - revenue1
-//   }
-//   return drivers.sort(revenueSorter)
-// }
+const totalRevenue = function () {
+  
+}
