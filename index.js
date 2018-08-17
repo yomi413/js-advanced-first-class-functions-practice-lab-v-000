@@ -37,5 +37,4 @@ const totalRevenue = function (drivers) {
     grandTotal += driver.revenue
   })
   return grandTotal
-
 }
